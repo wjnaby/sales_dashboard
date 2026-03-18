@@ -1,0 +1,118 @@
+/**
+ * Sales Dashboard - Custom Styles
+ * Modern, responsive design
+ */
+
+:root {
+    --primary-color: #0d6efd;
+    --sidebar-width: 250px;
+}
+
+/* Login Page */
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 1rem;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 420px;
+}
+
+.login-card {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.login-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+/* Summary Cards */
+.summary-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 0.75rem;
+}
+
+.summary-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Cards */
+.card {
+    border-radius: 0.75rem;
+}
+
+.card-header {
+    border-radius: 0.75rem 0.75rem 0 0;
+}
+
+/* Navbar */
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.nav-link.active {
+    font-weight: 600;
+}
+
+/* Tables */
+.table-responsive {
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.table thead th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 0.5rem;
+}
+
+/* Forms */
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Footer */
+.footer {
+    margin-top: 2rem;
+}
+
+/* Chart containers */
+.chart-container {
+    min-height: 300px;
+}
+
+/* Alerts */
+.alert {
+    border-radius: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .login-container {
+        margin: 1rem;
+    }
+    
+    .summary-card .summary-icon {
+        display: none;
+    }
+}
