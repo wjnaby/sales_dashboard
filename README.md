@@ -93,16 +93,6 @@ define('DB_PASS', '');  // Set your MySQL password if needed
 - **CRUD** for sales data and products
 - **Security:** PDO prepared statements (SQL injection protection)
 - **Responsive UI** with Bootstrap 5
-
-## Default Credentials
-
-| Username | Password | Role  |
-|----------|----------|-------|
-| admin    | password | Admin |
-| user     | password | User  |
-
-Run `php sql/setup-users.php` to set password to `admin123`.
-
 ## License
 
 MIT
